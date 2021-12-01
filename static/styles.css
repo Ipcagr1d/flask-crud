@@ -36,6 +36,7 @@ body {
 .section:hover {
     background-color: #f5f5f5;
     transition: color 2s ease-in-out, background-color 0.15s ease-in-out;
+    border-radius: 1rem;
 }
 
 h1 {
