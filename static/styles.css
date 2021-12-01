@@ -18,7 +18,8 @@ body {
 }
 
 .jumbotron {
-    background-color: #477bff;
+    border-radius: 0;
+    background-color: #14213d;
     color: #fff;
     margin-bottom: 2rem;
     padding: 2rem 1rem;
@@ -55,9 +56,13 @@ button, input[type="submit"] {
     vertical-align: middle;
 }
 
+.button-container {
+    padding: 1rem 1rem 1rem 1rem;
+}
+
 input[type="text"], input[type="number"] {
     line-height: 1.8;
-    width: 25%;
+    width: 100%;
 }
 
 input[type="text"]:hover, input[type="number"]:hover {
@@ -78,6 +83,6 @@ table td {
 }
 
 tbody tr:nth-of-type(odd) {
-    background-color: rgb(179, 208, 255, 0.3)
+    background-color: #e5e5e5;
 }
 
