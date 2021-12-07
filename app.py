@@ -103,7 +103,7 @@ def register():
         # Variable pass
         username = request.form.get("username")
         password = request.form.get("password")
-        confirmation = request.form.get("password_again")
+        confirmation = request.form.get("confirmation")
 
         rows = db.execute("SELECT * FROM users WHERE username = ?", username)
 
